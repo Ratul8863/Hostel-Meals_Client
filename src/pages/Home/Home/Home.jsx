@@ -54,7 +54,4 @@ export default Home;
 
 
 
-       {/* <Services></Services> */}
-{/* <ClientLogosMarquee></ClientLogosMarquee>
-            <Benefits></Benefits>
-            <BeMerchant></BeMerchant> */}
+    
