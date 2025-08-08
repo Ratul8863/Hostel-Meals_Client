@@ -1,5 +1,7 @@
 # 🏠Hostel Meals - Hostel's Meal Management System
 
+
+
 ![React](https://img.shields.io/badge/React-20232A?style=for-the-badge&logo=react&logoColor=61DAFB)
 ![Firebase](https://img.shields.io/badge/Firebase-FFCA28?style=for-the-badge&logo=firebase&logoColor=black)
 ![MongoDB](https://img.shields.io/badge/MongoDB-47A248?style=for-the-badge&logo=mongodb&logoColor=white)
@@ -8,6 +10,10 @@
 ![TailwindCSS](https://img.shields.io/badge/Tailwind_CSS-06B6D4?style=for-the-badge&logo=tailwindcss&logoColor=white)
 
 > A full-stack hostel meal and membership management platform with Stripe integration, admin control panel, premium user experience, and a modern UI.
+
+
+![Project Screenshot](src/assets/photo.png)
+
 
 ---
 
@@ -82,6 +88,53 @@
 | **Payment**   | Stripe Integration |
 | **Fetching**  | Axios + [TanStack Query](https://tanstack.com/query/latest) |
 | **Deployment**| Firebase (Client) & Vercel (API Server) |
+
+---
+📦 Dependencies
+
+Frontend:
+react, react-router-dom, @tanstack/react-query, axios, firebase, sweetalert2, stripe, tailwindcss, daisyui, react-icons
+
+Backend:
+express, mongodb, jsonwebtoken, stripe, cors, dotenv
+
+---
+
+🛠 Installation & Running Locally
+
+1️⃣ Clone the repository
+git clone https://github.com/your-username/hostel-meals.git
+cd hostel-meals
+
+2️⃣ Install dependencies
+Client:
+cd client
+npm install
+
+Server:
+cd server
+npm install
+
+3️⃣ Set up environment variables
+Client (.env):
+VITE_apiKey=your_firebase_api_key
+VITE_authDomain=your_firebase_auth_domain
+VITE_projectId=your_firebase_project_id
+VITE_storageBucket=your_firebase_storage_bucket
+VITE_messagingSenderId=your_firebase_sender_id
+VITE_appId=your_firebase_app_id
+VITE_STRIPE_PUBLIC_KEY=your_stripe_public_key
+
+Server (.env):
+PORT=5000
+DB_USER=your_db_username
+DB_PASS=your_db_password
+JWT_SECRET=your_jwt_secret
+STRIPE_SECRET_KEY=your_stripe_secret_key
+
+4️⃣ Run the development servers
+Client: npm run dev
+Server: npm start
 
 ---
 
